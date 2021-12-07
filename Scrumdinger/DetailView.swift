@@ -13,9 +13,10 @@ struct DetailView: View {
     @State private var isPresented = false
     var body: some View {
         List{
-            Section(header: Text("Meeting Info").foregroundColor(.primary)){
+            Section(header: Text("Meeting Info")
+                        .foregroundColor(.primary)){
                 NavigationLink(
-                    destination: MeetingView()){
+                    destination: MeetingView(scrum: $scrum)){
                         Label("Start Meeting", systemImage: "timer")
                             .font(.headline)
                             .foregroundColor(.accentColor)
