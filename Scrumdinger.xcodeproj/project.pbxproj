@@ -15,6 +15,9 @@
 		AA8ACE8824F44E03007DA4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8ACE8724F44E03007DA4D8 /* Assets.xcassets */; };
 		AA8ACE8B24F44E03007DA4D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8ACE8A24F44E03007DA4D8 /* Preview Assets.xcassets */; };
 		AA8ACE9424F44FB6007DA4D8 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA8ACE9324F44FB6007DA4D8 /* LICENSE.txt */; };
+		FF2BB05B2761273C00C56078 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BB05A2761273C00C56078 /* Theme.swift */; };
+		FF2BB05D27612BDD00C56078 /* TrailinglconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BB05C27612BDD00C56078 /* TrailinglconLabelStyle.swift */; };
+		FF2BB0612761334500C56078 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BB0602761334500C56078 /* ThemeView.swift */; };
 		FF5AA77B275D12FC0096F472 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5AA77A275D12FC0096F472 /* ScrumsView.swift */; };
 		FFAA953E275D3D4100891A61 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAA953D275D3D4100891A61 /* DetailView.swift */; };
 		FFAA9540275DED2100891A61 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAA953F275DED2100891A61 /* EditView.swift */; };
@@ -35,6 +38,9 @@
 		AA8ACE8C24F44E03007DA4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8ACE9324F44FB6007DA4D8 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		AAB2581125630B9000B279A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF2BB05A2761273C00C56078 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FF2BB05C27612BDD00C56078 /* TrailinglconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailinglconLabelStyle.swift; sourceTree = "<group>"; };
+		FF2BB0602761334500C56078 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		FF5AA77A275D12FC0096F472 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		FFAA953D275D3D4100891A61 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FFAA953F275DED2100891A61 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 				AA65BF4424F4605F007E4A1B /* Color+Codable.swift */,
 				AA65BF4624F460D9007E4A1B /* DailyScrum.swift */,
 				FFAA954F275F919100891A61 /* ScrumTimer.swift */,
+				FF2BB05A2761273C00C56078 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -67,6 +74,7 @@
 		AA8ACE7724F44E01007DA4D8 = {
 			isa = PBXGroup;
 			children = (
+				FF2BB05C27612BDD00C56078 /* TrailinglconLabelStyle.swift */,
 				AAB2581125630B9000B279A9 /* README.md */,
 				AA8ACE8224F44E01007DA4D8 /* Scrumdinger */,
 				AA8ACE8124F44E01007DA4D8 /* Products */,
@@ -97,6 +105,7 @@
 				FFAA953F275DED2100891A61 /* EditView.swift */,
 				FFAA9549275F6AF300891A61 /* MeetingHeaderView.swift */,
 				FFAA954D275F801C00891A61 /* ScrumProgressViewStyle.swift */,
+				FF2BB0602761334500C56078 /* ThemeView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -195,8 +204,11 @@
 				FFAA953E275D3D4100891A61 /* DetailView.swift in Sources */,
 				FFAA9550275F919100891A61 /* ScrumTimer.swift in Sources */,
 				AA65BF4524F4605F007E4A1B /* Color+Codable.swift in Sources */,
+				FF2BB0612761334500C56078 /* ThemeView.swift in Sources */,
 				AA8ACE8424F44E01007DA4D8 /* ScrumdingerApp.swift in Sources */,
+				FF2BB05B2761273C00C56078 /* Theme.swift in Sources */,
 				AA65BF4924F4636E007E4A1B /* CardView.swift in Sources */,
+				FF2BB05D27612BDD00C56078 /* TrailinglconLabelStyle.swift in Sources */,
 				FFAA954E275F801C00891A61 /* ScrumProgressViewStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
